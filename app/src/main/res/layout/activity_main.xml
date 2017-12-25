@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    style="@style/CalculatorTheme"
+    style="@style/AppTheme"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:orientation="vertical">
@@ -17,46 +17,30 @@
 
         <TextView
             android:id="@+id/stackX"
+            style="@style/StackDisplay"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/stackY"
-            android:ellipsize="end"
-            android:maxLines="1"
-            android:textAlignment="viewEnd"
-            android:textAppearance="@android:style/TextAppearance.Material.Large"
-            android:textSize="50sp" />
+            android:layout_below="@+id/stackY" />
 
         <TextView
             android:id="@+id/stackY"
+            style="@style/StackDisplay"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/stackZ"
-            android:ellipsize="end"
-            android:maxLines="1"
-            android:textAlignment="viewEnd"
-            android:textAppearance="@android:style/TextAppearance.Material.Large"
-            android:textSize="50sp" />
+            android:layout_below="@+id/stackZ" />
 
         <TextView
             android:id="@+id/stackZ"
+            style="@style/StackDisplay"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/stackT"
-            android:ellipsize="end"
-            android:maxLines="1"
-            android:textAlignment="viewEnd"
-            android:textAppearance="@android:style/TextAppearance.Material.Large"
-            android:textSize="50sp" />
+            android:layout_below="@+id/stackT" />
 
         <TextView
             android:id="@+id/stackT"
+            style="@style/StackDisplay"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ellipsize="end"
-            android:maxLines="1"
-            android:textAlignment="viewEnd"
-            android:textAppearance="@android:style/TextAppearance.Material.Large"
-            android:textSize="50sp" />
+            android:layout_height="wrap_content" />
 
     </RelativeLayout>
 
@@ -76,8 +60,6 @@
             android:rowCount="4"
             android:background="@color/pad_numeric_background_color"
             style="@style/CalculatorTheme">
-
-            <!-- Row 1 -->
 
             <Button
                 android:id="@+id/button7"
@@ -195,95 +177,112 @@
                 android:text="."
                 style="@style/NumpadStyle" />
 
-
-
-
         </GridLayout>
 
-        <GridLayout
-            android:id="@+id/operatorPad"
+        <LinearLayout
             android:layout_width="0dp"
             android:layout_weight="2"
             android:layout_height="match_parent"
-            android:columnCount="2"
-            android:orientation="horizontal"
-            android:rowCount="4"
-            android:elevation="1dp"
-            android:background="@color/pad_operator_background_color"
-            style="@style/CalculatorTheme">
+            android:orientation="vertical"
+            android:elevation="3dp">
 
-            <Button
-                android:id="@+id/buttonDrop"
-                android:layout_width="0dp"
+            <GridLayout
+                android:id="@+id/operatorPad"
+                android:layout_width="match_parent"
                 android:layout_height="0dp"
-                android:layout_columnWeight="1"
-                android:layout_gravity="fill"
-                android:layout_rowWeight="1"
-                android:text="Drop"
-                style="@style/TextButton" />
+                android:layout_weight="3"
+                android:columnCount="2"
+                android:orientation="horizontal"
+                android:rowCount="4"
+                android:background="@color/pad_operator_background_color"
+                style="@style/CalculatorTheme">
 
-            <Button
-                android:id="@+id/buttonDel"
-                android:layout_width="0dp"
-                android:layout_height="0dp"
-                android:layout_columnWeight="1"
-                android:layout_gravity="fill"
-                android:layout_rowWeight="1"
-                android:text="DEL"
-                style="@style/TextButton" />
+                <Button
+                    android:id="@+id/buttonDrop"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_columnWeight="1"
+                    android:layout_gravity="fill"
+                    android:layout_rowWeight="1"
+                    android:text="Drop"
+                    style="@style/TextButton" />
 
-            <Button
-                android:id="@+id/buttonMul"
-                android:layout_width="0dp"
-                android:layout_height="0dp"
-                android:layout_columnWeight="1"
-                android:layout_gravity="fill"
-                android:layout_rowWeight="1"
-                android:text="×"
-                style="@style/NumpadStyle" />
+                <Button
+                    android:id="@+id/buttonDel"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_columnWeight="1"
+                    android:layout_gravity="fill"
+                    android:layout_rowWeight="1"
+                    android:text="DEL"
+                    style="@style/TextButton" />
 
-            <Button
-                android:id="@+id/buttonDiv"
-                android:layout_width="0dp"
-                android:layout_height="0dp"
-                android:layout_columnWeight="1"
-                android:layout_gravity="fill"
-                android:layout_rowWeight="1"
-                android:text="÷"
-                style="@style/NumpadStyle" />
+                <Button
+                    android:id="@+id/buttonMul"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_columnWeight="1"
+                    android:layout_gravity="fill"
+                    android:layout_rowWeight="1"
+                    android:text="×"
+                    style="@style/NumpadStyle" />
 
-            <Button
-                android:id="@+id/buttonAdd"
-                android:layout_width="0dp"
-                android:layout_height="0dp"
-                android:layout_columnWeight="1"
-                android:layout_gravity="fill"
-                android:layout_rowWeight="1"
-                android:text="+"
-                style="@style/NumpadStyle" />
+                <Button
+                    android:id="@+id/buttonDiv"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_columnWeight="1"
+                    android:layout_gravity="fill"
+                    android:layout_rowWeight="1"
+                    android:text="÷"
+                    style="@style/NumpadStyle" />
 
-            <Button
-                android:id="@+id/buttonSub"
-                android:layout_width="0dp"
-                android:layout_height="0dp"
-                android:layout_columnWeight="1"
-                android:layout_gravity="fill"
-                android:layout_rowWeight="1"
-                android:text="−"
-                style="@style/NumpadStyle" />
+                <Button
+                    android:id="@+id/buttonAdd"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_columnWeight="1"
+                    android:layout_gravity="fill"
+                    android:layout_rowWeight="1"
+                    android:text="+"
+                    style="@style/NumpadStyle" />
 
-            <Button
-                android:id="@+id/buttonEnter"
+                <Button
+                    android:id="@+id/buttonSub"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_columnWeight="1"
+                    android:layout_gravity="fill"
+                    android:layout_rowWeight="1"
+                    android:text="−"
+                    style="@style/NumpadStyle" />
+
+            </GridLayout>
+
+            <GridLayout
+                android:id="@+id/enterPad"
+                android:layout_width="match_parent"
                 android:layout_height="0dp"
-                android:layout_columnSpan="2"
-                android:layout_gravity="fill"
-                android:layout_rowWeight="1"
-                android:text="Enter"
-                android:elevation="10dp"
+                android:layout_weight="1"
+                android:columnCount="2"
+                android:orientation="horizontal"
+                android:rowCount="4"
                 android:background="@color/calculator_accent_color"
-                style="@style/TextButton" />
+                style="@style/CalculatorTheme">
 
-        </GridLayout>
+                <Button
+                    android:id="@+id/buttonEnter"
+                    android:layout_height="0dp"
+                    android:layout_columnSpan="2"
+                    android:layout_gravity="fill"
+                    android:layout_rowWeight="1"
+                    android:text="Enter"
+                    android:elevation="10dp"
+                    style="@style/TextButton" />
+
+            </GridLayout>
+
+        </LinearLayout>
 
     </LinearLayout>
 
