@@ -10,6 +10,7 @@
           <device id="pixel" />
           <device id="Nexus 6P" />
         </devices>
+        <target>android-25</target>
       </config>
     </shared>
   </component>
@@ -19,6 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d844a616-722e-4722-9f21-e5f2107e6d15" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/numpad_background.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/classAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/classAnalysis.bin" />
@@ -28,7 +30,12 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/evan/rpncalculator/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/evan/rpncalculator/MainActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/evan/rpncalculator/Stack.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/evan/rpncalculator/Stack.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/build/classes/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -72,34 +79,44 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="styles.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="4" column="43" lean-forward="false" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="colors.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="306">
+              <caret line="24" column="46" lean-forward="false" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="46" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="activity_main.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="styles.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="17" column="40" lean-forward="false" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="activity_main.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
           <provider selected="true" editor-type-id="android-designer2">
             <state />
           </provider>
           <provider editor-type-id="text-editor">
-            <state relative-caret-position="2129">
-              <caret line="116" column="0" lean-forward="false" selection-start-line="116" selection-start-column="0" selection-end-line="116" selection-end-column="0" />
+            <state relative-caret-position="225">
+              <caret line="68" column="8" lean-forward="false" selection-start-line="68" selection-start-column="8" selection-end-line="68" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="numpad_background.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/numpad_background.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="3" column="53" lean-forward="false" selection-start-line="3" selection-start-column="53" selection-end-line="3" selection-end-column="53" />
               <folding />
             </state>
           </provider>
@@ -108,46 +125,50 @@
       <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/evan/rpncalculator/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="28" column="35" lean-forward="false" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
+            <state relative-caret-position="374">
+              <caret line="32" column="43" lean-forward="false" selection-start-line="32" selection-start-column="43" selection-end-line="32" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2064#2211#0" expanded="true" />
-                <element signature="e#2210#2211#0" expanded="true" />
-                <element signature="e#2250#2397#0" expanded="true" />
-                <element signature="e#2396#2397#0" expanded="true" />
-                <element signature="e#2436#2583#0" expanded="true" />
-                <element signature="e#2582#2583#0" expanded="true" />
-                <element signature="e#2622#2769#0" expanded="true" />
-                <element signature="e#2768#2769#0" expanded="true" />
-                <element signature="e#2808#2955#0" expanded="true" />
-                <element signature="e#2954#2955#0" expanded="true" />
-                <element signature="e#2994#3141#0" expanded="true" />
-                <element signature="e#3140#3141#0" expanded="true" />
-                <element signature="e#3180#3327#0" expanded="true" />
-                <element signature="e#3326#3327#0" expanded="true" />
-                <element signature="e#3366#3513#0" expanded="true" />
-                <element signature="e#3512#3513#0" expanded="true" />
-                <element signature="e#3552#3699#0" expanded="true" />
-                <element signature="e#3698#3699#0" expanded="true" />
-                <element signature="e#3738#3885#0" expanded="true" />
-                <element signature="e#3884#3885#0" expanded="true" />
-                <element signature="e#3928#4169#0" expanded="true" />
-                <element signature="e#4168#4169#0" expanded="true" />
-                <element signature="e#4212#4454#0" expanded="true" />
-                <element signature="e#4453#4454#0" expanded="true" />
-                <element signature="e#4496#4675#0" expanded="true" />
-                <element signature="e#4674#4675#0" expanded="true" />
-                <element signature="e#4738#4920#0" expanded="true" />
-                <element signature="e#4919#4920#0" expanded="true" />
-                <element signature="e#4961#5143#0" expanded="true" />
-                <element signature="e#5142#5143#0" expanded="true" />
-                <element signature="e#5184#5366#0" expanded="true" />
-                <element signature="e#5365#5366#0" expanded="true" />
-                <element signature="e#5407#5589#0" expanded="true" />
-                <element signature="e#5588#5589#0" expanded="true" />
-                <element signature="e#6216#6217#0" expanded="true" />
-                <element signature="e#6255#6256#0" expanded="true" />
+                <element signature="e#2446#2627#0" expanded="true" />
+                <element signature="e#2626#2627#0" expanded="true" />
+                <element signature="e#2666#2847#0" expanded="true" />
+                <element signature="e#2846#2847#0" expanded="true" />
+                <element signature="e#2886#3067#0" expanded="true" />
+                <element signature="e#3066#3067#0" expanded="true" />
+                <element signature="e#3106#3287#0" expanded="true" />
+                <element signature="e#3286#3287#0" expanded="true" />
+                <element signature="e#3326#3507#0" expanded="true" />
+                <element signature="e#3506#3507#0" expanded="true" />
+                <element signature="e#3546#3727#0" expanded="true" />
+                <element signature="e#3726#3727#0" expanded="true" />
+                <element signature="e#3766#3947#0" expanded="true" />
+                <element signature="e#3946#3947#0" expanded="true" />
+                <element signature="e#3986#4167#0" expanded="true" />
+                <element signature="e#4166#4167#0" expanded="true" />
+                <element signature="e#4206#4387#0" expanded="true" />
+                <element signature="e#4386#4387#0" expanded="true" />
+                <element signature="e#4426#4607#0" expanded="true" />
+                <element signature="e#4606#4607#0" expanded="true" />
+                <element signature="e#4650#4925#0" expanded="true" />
+                <element signature="e#4924#4925#0" expanded="true" />
+                <element signature="e#4967#5187#0" expanded="true" />
+                <element signature="e#5186#5187#0" expanded="true" />
+                <element signature="e#5230#5538#0" expanded="true" />
+                <element signature="e#5537#5538#0" expanded="true" />
+                <element signature="e#5580#5793#0" expanded="true" />
+                <element signature="e#5792#5793#0" expanded="true" />
+                <element signature="e#5834#6180#0" expanded="true" />
+                <element signature="e#6179#6180#0" expanded="true" />
+                <element signature="e#6243#6459#0" expanded="true" />
+                <element signature="e#6458#6459#0" expanded="true" />
+                <element signature="e#6500#6716#0" expanded="true" />
+                <element signature="e#6715#6716#0" expanded="true" />
+                <element signature="e#6757#6973#0" expanded="true" />
+                <element signature="e#6972#6973#0" expanded="true" />
+                <element signature="e#7014#7230#0" expanded="true" />
+                <element signature="e#7229#7230#0" expanded="true" />
+                <element signature="e#7906#7907#0" expanded="true" />
+                <element signature="e#7945#7946#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -156,27 +177,12 @@
       <file leaf-file-name="Stack.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/evan/rpncalculator/Stack.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1428">
-              <caret line="42" column="5" lean-forward="false" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
+            <state relative-caret-position="782">
+              <caret line="59" column="85" lean-forward="false" selection-start-line="59" selection-start-column="85" selection-end-line="59" selection-end-column="85" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#343#344#0" expanded="true" />
                 <element signature="e#374#375#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Number.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/evan/rpncalculator/Number.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="10" column="26" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-              <folding>
-                <element signature="e#213#214#0" expanded="true" />
-                <element signature="e#245#246#0" expanded="true" />
-                <element signature="e#522#523#0" expanded="true" />
-                <element signature="e#553#554#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -194,6 +200,12 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>center</find>
+      <find>setcon</find>
+      <find>sign</find>
+      <find>rpn</find>
+      <find>del</find>
+      <find>sub</find>
+      <find>mul</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -1917,10 +1929,15 @@
       <list>
         <option value="$USER_HOME$/Android/Sdk/platforms/android-26/android.jar!/android/view/View.class" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/evan/rpncalculator/Number.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/drawable/pad_button_background.xml .properties" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/evan/rpncalculator/Stack.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/values/styles.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/evan/rpncalculator/MainActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/drawable/pad_button_background.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/drawable/numpad_background.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/styles.xml" />
       </list>
     </option>
   </component>
@@ -1989,6 +2006,24 @@
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidResFolderNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="drawable" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidResFolderTypeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RPNCalculator" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidSourceTypeNode" />
             </PATH_ELEMENT>
@@ -2020,6 +2055,10 @@
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="manifests" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidManifestsGroupNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -2034,6 +2073,7 @@
     <property name="device.picker.selection" value="4b2e245d" />
     <property name="android.profiler.active" value="true" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -2118,7 +2158,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1514152828989" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1514165683406" />
       </method>
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests">
@@ -2166,7 +2206,7 @@
       </Profilers>
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1514152828989" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1514165683407" />
       </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -2349,7 +2389,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1514152828990" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1514165683409" />
       </method>
     </configuration>
     <list size="1">
@@ -2392,7 +2432,14 @@
       <option name="project" value="LOCAL" />
       <updated>1514151377766</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="layout changes">
+      <created>1514152847135</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1514152847135</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView">
@@ -2422,12 +2469,13 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" x="100" y="56" width="2360" height="1194" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298217" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294849" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917038" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17752007" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917038" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13249595" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294849" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298217" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -2440,6 +2488,39 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294849" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917038" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294849" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39964476" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294849" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3425513" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298217" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294849" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917038" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17752007" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917038" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13249595" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294849" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298217" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -2472,7 +2553,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Inital barebones app.&#10;&#10;Working stack, +-*/, and basic layout" />
-    <option name="LAST_COMMIT_MESSAGE" value="Inital barebones app.&#10;&#10;Working stack, +-*/, and basic layout" />
+    <MESSAGE value="layout changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="layout changes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -2484,18 +2566,6 @@
         <state relative-caret-position="47891">
           <caret line="2864" column="13" lean-forward="false" selection-start-line="2864" selection-start-column="13" selection-end-line="2864" selection-end-column="13" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/evan/rpncalculator/Stack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1428">
-          <caret line="42" column="5" lean-forward="false" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#343#344#0" expanded="true" />
-            <element signature="e#374#375#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2512,65 +2582,108 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/evan/rpncalculator/Stack.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="782">
+          <caret line="59" column="85" lean-forward="false" selection-start-line="59" selection-start-column="85" selection-end-line="59" selection-end-column="85" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#343#344#0" expanded="true" />
+            <element signature="e#374#375#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
+    <entry file="file://$PROJECT_DIR$/app/build/intermediates/manifests/instant-run/debug/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="4" column="43" lean-forward="false" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
+        <state relative-caret-position="408">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/evan/rpncalculator/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="28" column="35" lean-forward="false" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
+        <state relative-caret-position="374">
+          <caret line="32" column="43" lean-forward="false" selection-start-line="32" selection-start-column="43" selection-end-line="32" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2064#2211#0" expanded="true" />
-            <element signature="e#2210#2211#0" expanded="true" />
-            <element signature="e#2250#2397#0" expanded="true" />
-            <element signature="e#2396#2397#0" expanded="true" />
-            <element signature="e#2436#2583#0" expanded="true" />
-            <element signature="e#2582#2583#0" expanded="true" />
-            <element signature="e#2622#2769#0" expanded="true" />
-            <element signature="e#2768#2769#0" expanded="true" />
-            <element signature="e#2808#2955#0" expanded="true" />
-            <element signature="e#2954#2955#0" expanded="true" />
-            <element signature="e#2994#3141#0" expanded="true" />
-            <element signature="e#3140#3141#0" expanded="true" />
-            <element signature="e#3180#3327#0" expanded="true" />
-            <element signature="e#3326#3327#0" expanded="true" />
-            <element signature="e#3366#3513#0" expanded="true" />
-            <element signature="e#3512#3513#0" expanded="true" />
-            <element signature="e#3552#3699#0" expanded="true" />
-            <element signature="e#3698#3699#0" expanded="true" />
-            <element signature="e#3738#3885#0" expanded="true" />
-            <element signature="e#3884#3885#0" expanded="true" />
-            <element signature="e#3928#4169#0" expanded="true" />
-            <element signature="e#4168#4169#0" expanded="true" />
-            <element signature="e#4212#4454#0" expanded="true" />
-            <element signature="e#4453#4454#0" expanded="true" />
-            <element signature="e#4496#4675#0" expanded="true" />
-            <element signature="e#4674#4675#0" expanded="true" />
-            <element signature="e#4738#4920#0" expanded="true" />
-            <element signature="e#4919#4920#0" expanded="true" />
-            <element signature="e#4961#5143#0" expanded="true" />
-            <element signature="e#5142#5143#0" expanded="true" />
-            <element signature="e#5184#5366#0" expanded="true" />
-            <element signature="e#5365#5366#0" expanded="true" />
-            <element signature="e#5407#5589#0" expanded="true" />
-            <element signature="e#5588#5589#0" expanded="true" />
-            <element signature="e#6216#6217#0" expanded="true" />
-            <element signature="e#6255#6256#0" expanded="true" />
+            <element signature="e#2446#2627#0" expanded="true" />
+            <element signature="e#2626#2627#0" expanded="true" />
+            <element signature="e#2666#2847#0" expanded="true" />
+            <element signature="e#2846#2847#0" expanded="true" />
+            <element signature="e#2886#3067#0" expanded="true" />
+            <element signature="e#3066#3067#0" expanded="true" />
+            <element signature="e#3106#3287#0" expanded="true" />
+            <element signature="e#3286#3287#0" expanded="true" />
+            <element signature="e#3326#3507#0" expanded="true" />
+            <element signature="e#3506#3507#0" expanded="true" />
+            <element signature="e#3546#3727#0" expanded="true" />
+            <element signature="e#3726#3727#0" expanded="true" />
+            <element signature="e#3766#3947#0" expanded="true" />
+            <element signature="e#3946#3947#0" expanded="true" />
+            <element signature="e#3986#4167#0" expanded="true" />
+            <element signature="e#4166#4167#0" expanded="true" />
+            <element signature="e#4206#4387#0" expanded="true" />
+            <element signature="e#4386#4387#0" expanded="true" />
+            <element signature="e#4426#4607#0" expanded="true" />
+            <element signature="e#4606#4607#0" expanded="true" />
+            <element signature="e#4650#4925#0" expanded="true" />
+            <element signature="e#4924#4925#0" expanded="true" />
+            <element signature="e#4967#5187#0" expanded="true" />
+            <element signature="e#5186#5187#0" expanded="true" />
+            <element signature="e#5230#5538#0" expanded="true" />
+            <element signature="e#5537#5538#0" expanded="true" />
+            <element signature="e#5580#5793#0" expanded="true" />
+            <element signature="e#5792#5793#0" expanded="true" />
+            <element signature="e#5834#6180#0" expanded="true" />
+            <element signature="e#6179#6180#0" expanded="true" />
+            <element signature="e#6243#6459#0" expanded="true" />
+            <element signature="e#6458#6459#0" expanded="true" />
+            <element signature="e#6500#6716#0" expanded="true" />
+            <element signature="e#6715#6716#0" expanded="true" />
+            <element signature="e#6757#6973#0" expanded="true" />
+            <element signature="e#6972#6973#0" expanded="true" />
+            <element signature="e#7014#7230#0" expanded="true" />
+            <element signature="e#7229#7230#0" expanded="true" />
+            <element signature="e#7906#7907#0" expanded="true" />
+            <element signature="e#7945#7946#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="11" column="38" lean-forward="false" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-manifest">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/03cd3e0222228c5cbf1810378c2bc59a/res/values/values.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="1669" column="17" lean-forward="false" selection-start-line="1669" selection-start-column="17" selection-end-line="1669" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="24" column="46" lean-forward="false" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/numpad_background.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="3" column="53" lean-forward="false" selection-start-line="3" selection-start-column="53" selection-end-line="3" selection-end-column="53" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2579,8 +2692,16 @@
         <state />
       </provider>
       <provider editor-type-id="text-editor">
-        <state relative-caret-position="2129">
-          <caret line="116" column="0" lean-forward="false" selection-start-line="116" selection-start-column="0" selection-end-line="116" selection-end-column="0" />
+        <state relative-caret-position="225">
+          <caret line="68" column="8" lean-forward="false" selection-start-line="68" selection-start-column="8" selection-end-line="68" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="17" column="40" lean-forward="false" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
           <folding />
         </state>
       </provider>

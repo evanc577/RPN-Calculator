@@ -42,6 +42,25 @@ public class Stack {
         }
     }
 
+    public void delStackX() {
+        if (0 != stackPtr) {
+            String substr = stack.get(stackPtr-1).toPlainString();
+            if (substr.length() > 1) {
+                substr = substr.substring(0, substr.length() - 1);
+                stack.set(stackPtr - 1, new BigDecimal(substr));
+            }
+            else {
+                drop();
+            }
+        }
+    }
+
+    public void changeSignX() {
+        if (0 != stackPtr) {
+            stack.set(stackPtr-1, stack.get(stackPtr-1).multiply(new BigDecimal(-1)));
+        }
+    }
+
     public String getString(int index) {
         if (index >= stackPtr) return "";
         return stack.get(stackPtr-1-index).stripTrailingZeros().toPlainString();
